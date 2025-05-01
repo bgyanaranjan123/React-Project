@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.contact {
+  position: relative;
+  height: 110vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 90%;
+  grid-template-rows: 90%;
+  place-content: center;
+  background: linear-gradient(to left, white, #f1dedb, #f6f0ef, white);
+}
+.contact > section {
+  display: grid;
+  grid-template-columns: 55% 40%;
+  grid-template-rows: 90%;
+  justify-content: space-between;
+}
+.contact > section > #left_section {
+  display: grid;
+}
+.contact > section > #left_section > h1 {
+  display: flex;
+  /* justify-self: center; */
+  /* text-align: center; */
+  align-self: center;
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.contact>#i1{
+position: absolute;
+top: 0;
+right: 0;
+height: 150px;
+width: 150px;
+}
+.contact>#i2{
+position: absolute;
+bottom: 0;
+left: 0;
+height: 150px;
+width: 150px;
+}
+.contact > section > #left_section > p {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.839);
+}
+.contact > section > #left_section > p > span {
+  color: #ff5200;
+}
+.contact > section > #left_section > span {
+  display: flex;
+  gap: 13px;
+}
+.contact > section > #left_section > h2 {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.899);
+}
+.contact > section > #left_section > span > i {
+  font-size: 120%;
+  color: #ff5200;
+}
+.contact > section > #left_section > button {
+  display: flex;
+  justify-self: baseline;
+  z-index: 3;
+  align-self: center;
+  padding: 12px 20px;
+  text-transform: capitalize;
+  font-weight: 900;
+  background-color: #ff5200;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.contact>section>#right_section{
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 95%;
+  place-content: center;
+}
+.contact>section>#right_section>form{
+  display: grid;
+  grid-template-columns: 90%;
+  border-radius: 20px;
+  background:transparent;
+  border: 2px solid white;
+  box-shadow: 0 0 1px black inset;
+  justify-content: center;
+  padding: 15px 0;
+}
+.contact>section>#right_section>form>h2{
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+}
+.contact>section>#right_section>form>span{
+  display: grid;
+  align-items: center;
+}
+.contact>section>#right_section>form>span>input,form>span>textarea{
+  /* height: 9vh; */
+  padding: 15px 10px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 2px black;
+  text-transform: capitalize;
+  /* font-size: ; */
+}
+.contact>section>#right_section>form>span>button{
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  padding: 13px 20px;
+  text-transform: capitalize;
+  font-weight: 900;
+  background-color: #ff5200;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.contact>section>#right_section>form>span>p{
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 13px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85); 
+}
+.contact>section>#right_section>form>span>p>span{
+  color:#ff5200 ;
+}
+.detail{
+  height: 90vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 85%;
+grid-template-columns: 90%;
+place-content: center;
+}
+.detail>section{
+  display: grid;
+  grid-template-columns: repeat(2,45%);
+  grid-template-rows: 100%;
+  justify-content: space-evenly;
+}
+.detail>section>#right_part,
+.detail>section>#left_part{
+display: grid;
+}
+.detail>section>#right_part>div,
+.detail>section>#left_part>div{
+  display: grid;
+  align-content: center;
+  gap: 15px;
+}
+.detail>section>#right_part>div>h2,
+.detail>section>#left_part>div>h2{
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.detail>section>#right_part>div>p,
+.detail>section>#left_part>div>p{
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.839);
+}
+.detail>section>#right_part>div>b,
+.detail>section>#left_part>div>b{
+  text-transform: capitalize;
+  font-size: 90%;
+}
+
+.detail>section>#right_part>div>b>span,
+.detail>section>#left_part>div>b>span{
+  color: #ff5200 ;
+}

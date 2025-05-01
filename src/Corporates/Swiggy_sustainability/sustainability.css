@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sustain {
+  position: relative;
+  background-color: #f5f3f9;
+  height: 70vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 90%;
+  grid-template-rows: 20vh 15vh 1fr;
+  justify-content: center;
+}
+.sustain > h1 {
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  align-self: end;
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.sustain > p {
+  width: 70%;
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  align-self: end;
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.613);
+}
+.sustain > img {
+  position: absolute;
+  height: 60vh;
+  width: 11vw;
+  right: 0;
+  bottom: 0;
+}
+.sustain > section {
+  /* margin-top: 100px; */
+  position: absolute;
+  /* padding-top: 30vh; */
+  width: 80%;
+  height: 70%;
+  justify-self: center;
+  bottom: -25vh;
+  /* background-color: rgb(24, 24, 22); */
+  display: grid;
+  grid-template-rows: 70%;
+  align-content: space-evenly;
+  grid-template-columns: 80%;
+  justify-content: center;
+}
+.sustain > section > div {
+  border-radius: 20px;
+  display: grid;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 1px black;
+  grid-template-rows: 10% 60%;
+  justify-content: center;
+  align-content: space-evenly;
+  grid-template-columns: 90%;
+}
+.sustain > section > div > h2 {
+  text-align: center;
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.909);
+}
+.sustain > section > div > span {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(6, 15%);
+  justify-content: center;
+  gap: 5px;
+  grid-template-rows: 60%;
+  align-content: center;
+}
+.sustain > section > div > span > img {
+  height: 17vh;
+  width: 17vh;
+  display: flex;
+  place-self: center;
+}
+.paper,
+.vegetable {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 80%;
+  grid-template-rows: 60%;
+  justify-content: center;
+  align-content: end;
+  padding-bottom: 20px;
+}
+.paper {
+  height: 70vh;
+  display: grid;
+  grid-template-rows: 70%;
+  padding-bottom: 20px;
+}
+.paper > div,
+.vegetable > div {
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 30% 60%;
+  grid-template-rows: 80%;
+  align-content: center;
+  justify-content: space-between;
+  box-shadow: 0 0 1px black;
+  padding: 0 10px;
+}
+.paper > div {
+  display: grid;
+  grid-template-columns: 70% 20%;
+  grid-template-rows: 80%;
+  justify-content: space-evenly;
+  /* align-content: center; */
+}
+.paper > div > img,
+.vegetable > div > img {
+  height: 50vh;
+  width: 30vw;
+  /* padding-right: 30vw; */
+  display: flex;
+  align-self: center;
+}
+.paper > div > img {
+  width: 20vw;
+}
+.paper > div > section,
+.vegetable > div > section {
+  display: grid;
+}
+.paper > div > section > h2,
+.vegetable > div > section > h2 {
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.852);
+}
+.paper > div > section > p,
+.vegetable > div > section > p {
+  text-transform: capitalize;
+  font-size: 97%;
+}
+.paper > div > section > p > span,
+.vegetable > div > section > p > span {
+  color: #1ba672;
+  font-weight: 900;
+}
+.blogt {
+  height: 110vh;
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 20vh 1fr;
+  /* justify-content: center; */
+  grid-template-columns: 100%;
+}
+.blogt > h1 {
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  align-self: end;
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.blogt >img{
+height: 40vh;
+width: 15vw;
+position: absolute;
+}
+.blogt > section {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 90%;
+  align-content: center;
+}
+.blogt > section > span {
+  display: grid;
+  background-color: #4f898c;
+  grid-template-columns: repeat(3, 25%);
+  justify-content: center;
+  grid-template-rows: 83%;
+  align-content: center;
+  gap: 20px;
+}
+.blogt > section > span > div {
+  background-color: white;
+  border-radius: 20px;
+
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 40% 60%;
+}
+.blogt > section > span > div > img {
+  height: 100%;
+  width: 100%;
+}
+.blogt > section > span > div:nth-child(1) > img,
+.blogt > section > span > div:nth-child(2) > img {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  height: 70%;
+  width: 40%;
+}
+.blogt > section > span > div > div {
+  display: grid;
+  grid-template-columns: 90%;
+  justify-content: center;
+  padding: 20px 0;
+  align-content: baseline;
+  gap: 10px;
+}
+.blogt > section > span > div > div>h2{
+  color: rgba(0, 0, 0, 0.822);
+  font-size: 17px;
+}
+.blogt > section > span > div > div>p{
+  font-size: 90%;
+  color: rgba(0, 0, 0, 0.759);
+}

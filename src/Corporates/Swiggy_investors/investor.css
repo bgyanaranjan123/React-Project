@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.investor {
+  height: 80vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 20vh 50vh;
+  grid-template-columns: 80%;
+  justify-content: center;
+  align-content: space-between;
+}
+.investor > h1 {
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  align-self: end;
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.investor > section {
+  display: grid;
+  background-color: white;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 90%;
+  justify-content: space-evenly;
+  align-content: center;
+  border-radius: 20px;
+  box-shadow: 0 0 3px rgb(154, 153, 153) inset;
+}
+.investor > section > span {
+  display: grid;
+  grid-template-columns: 90%;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+}
+.investor > section > span > h1 {
+  font-family: "Gilroy", Sans-serif;
+  text-transform: capitalize;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.784);
+}
+.investor > section > span > span {
+  display: flex;
+  /* justify-content: center; */
+  gap: 15px;
+}
+.investor > section > span > span > button {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.investor > section > span > span > button:nth-child(1) {
+  background-color: #ff5200;
+  color: white;
+}
+.investor > section > span > span > button:nth-child(2) {
+  border: 2px solid #ff5200;
+  color: #ff5200;
+  background: none;
+}
+.investor > section > img {
+  height: 60vh;
+  width: 30vw;
+}
+.corporate {
+  height: 90vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 30vh 1fr;
+  grid-template-columns: 90%;
+  justify-content: center;
+}
+.corporate > h1 {
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  align-self: end;
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.corporate > section {
+  display: grid;
+  grid-template-rows: 70%;
+  align-content: center;
+}
+.corporate > section > span {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: space-evenly;
+}
+.corporate > section > span > div {
+  display: grid;
+  border-radius: 20px;
+  box-shadow: 0 0 2px black;
+  padding: 20px;
+  box-sizing: border-box;
+  align-content: baseline;
+  gap: 20px;
+}
+.corporate > section > span > div:hover {
+  box-shadow: 0 0 10px #ff5200;
+  transition: 0.5s ease-in-out;
+}
+.corporate > section > span > div:hover i {
+  color: white;
+  background-color: #ff5200;
+  box-shadow: 0 0 4px #ff5200 inset;
+  transition: 0.5s ease-in-out;
+}
+.corporate > section > span > div > b {
+  /* font-size: 110%; */
+  text-transform: capitalize;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.859);
+}
+.corporate > section > span > div > p {
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 90%;
+}
+.corporate > section > span > div > i {
+  background-color: #d6d6db;
+  padding: 10px;
+  display: flex;
+  justify-self: baseline;
+  align-self: center;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.rupee {
+  height: 70vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 70%;
+  grid-template-columns: 80%;
+  place-content: center;
+}
+.rupee > section {
+  border-radius: 20px;
+  background-color: #9e1e62;
+  display: grid;
+  grid-template-columns: 50% 30%;
+  grid-template-rows: 100%;
+  justify-content: space-evenly;
+}
+.rupee > section > span {
+  display: grid;
+  align-content: center;
+  gap: 15px;
+}
+.rupee > section > span > span {
+  gap: 18px;
+  display: flex;
+}
+.rupee > section > span > span > button {
+  background-color: white;
+  color: black;
+  padding: 0 20px;
+  cursor: pointer;
+  border: none;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+.rupee > section > span > span > input {
+  border: 2px solid white;
+  outline: none;
+  padding: 10px;
+  color: white;
+  width: 60%;
+  border-radius: 10px;
+  text-transform: capitalize;
+  background: none;
+}
+.rupee > section > span > span > input::placeholder {
+  color: white;
+}
+.rupee > section > span > h1 {
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size: 26px;
+  color: white;
+}
+.rupee > section > img {
+  height: 65vh;
+  width: 25vw;
+}
+.queries{
+  height: 70vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 80%;
+  grid-template-columns: 80%;
+  place-content: center;
+}
+.queries>section{
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 1px black;
+  background-color: #f5f1f1;
+  display: grid;
+  grid-template-columns: 25% 2% 70%;
+  justify-content: center;
+  gap: 10px;
+  box-sizing: border-box;
+
+  align-content: center;
+}
+.queries>section>h1{
+  text-transform: capitalize;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.859);
+  font-size: 26px;
+}
+.queries>section>span>hr{
+  height: 100%;
+  width: 1px;
+  display: flex;
+  place-self: center;
+}
+.queries>section>span:nth-child(3){
+  display: grid;
+  gap: 8px;
+  /* align-content: ; */
+}
+.queries>section>span:nth-child(3)>b{
+  text-transform: capitalize;
+  color: black;
+}
+.queries>section>span:nth-child(3)>p{
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.692);
+}

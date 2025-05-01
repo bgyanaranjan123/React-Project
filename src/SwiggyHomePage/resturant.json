@@ -1,0 +1,158 @@
+[
+  {
+    "id": "1",
+    "img": "homepageImages/resturant1.webp",
+    "codeNamw": "Punjab Grill",
+    "rating": 4.5,
+    "name": "North indian",
+    "price": "2000 for two",
+    "place": "rasulgarh,Bhubaneswar",
+    "km": 4.7,
+    "flat": "flat 30% off in prebooking"
+  },
+  {
+    "id": "2",
+    "img": "homepageImages/resturant2.webp",
+    "codeNamw": "svadu resturant",
+    "rating": 4.7,
+    "name": "chiniese.North indian",
+    "price": "700 for two",
+    "place": "kharavelanagar,Bhubaneswar",
+    "km": 0.6,
+    "flat": "flat 10% off in prebooking"
+  },
+  {
+    "id": "3",
+    "img": "homepageImages/resturant3.webp",
+    "codeNamw": "Terra rosso",
+    "rating": 4.3,
+    "name": "Beverages.italian",
+    "price": "1000 for two",
+    "place": "kharavelanagar,Bhubaneswar",
+    "km": 2.1,
+    "flat": "flat 10% off in prebooking"
+  },
+  {
+    "id": "4",
+    "img": "homepageImages/resturant4.webp",
+    "codeNamw": "Adda",
+    "rating": 4.3,
+    "name": "continetional.North indian",
+    "price": "2000 for two",
+    "place": "santoshplaza,Bhubaneswar",
+    "km": 2.2,
+    "flat": "flat 10% off in prebooking"
+  },
+  {
+    "id": "5",
+    "img": "homepageImages/resturant5.webp",
+    "codeNamw": "Hotel excellency bar",
+    "rating": 4.9,
+    "name": "chinese.continetional",
+    "price": "800 for two",
+    "place": "Ashoknagar,Bhubaneswar",
+    "km": 2.2,
+    "flat": "flat 10% off in prebooking"
+  },
+  {
+    "img": "homepageImages/resturant6.webp",
+    "codeNamw": "biriyani box",
+    "rating": 3.9,
+    "name": "North indian  fastfood",
+    "price": "1000 for two",
+    "place": "bapuji nagar,Bhubaneswar",
+    "km": 2.7,
+    "flat": "flat 30% off in prebooking"
+  },
+  {
+    "img": "homepageImages/resturant7.webp",
+    "codeNamw": "biriyani box",
+    "rating": 3.2,
+    "name": "biriyani fastfood",
+    "price": "800 for two",
+    "place": "saheednagar,Bhubaneswar",
+    "km": 3,
+    "flat": "flat 10% off in prebooking"
+  },
+  {
+    "img": "homepageImages/resturant8.webp",
+    "codeNamw": "bocca cafe",
+    "rating": 4.3,
+    "name": "North indian",
+    "price": "1000 for two",
+    "place": "jagamohan nagar,Bhubaneswar",
+    "km": 7.7,
+    "flat": "flat 10% off in prebooking"
+  },
+  {
+    "img": "homepageImages/resturant9.webp",
+    "codeNamw": "filling station",
+    "rating": 4.5,
+    "name": "chinese.North indian",
+    "price": "900 for two",
+    "place": "kharavelanagar,Bhubaneswar",
+    "km": 1.4,
+    "flat": "flat 10% off in prebooking"
+  },
+  {
+    "img": "homepageImages/resturant10.webp",
+    "codeNamw": "hotel welcome",
+    "rating": 3.1,
+    "name": "North indian fastfood",
+    "price": "700 for two",
+    "place": "puricanal,Bhubaneswar",
+    "km": 0.6,
+    "flat": "flat 50% off in prebooking"
+  },
+  {
+    "img": "homepageImages/resturant11.webp",
+    "codeNamw": "curry bown the adventure",
+    "rating": 4.5,
+    "name": "North indian",
+    "price": "1000 for two",
+    "place": "mungulai,Bhubaneswar",
+    "km": 4.0,
+    "flat": "flat 10% off in prebooking"
+  },
+  {
+    "img": "homepageImages/resturant12.webp",
+    "codeNamw": "barbells the adventure",
+    "rating": 4.9,
+    "name": "North indian",
+    "price": "700 for two",
+    "place": "Ashoknagar,Bhubaneswar",
+    "km": 5.2,
+    "flat": "flat 30% off in prebooking"
+  },
+
+  {
+    "img": "homepageImages/resturant13.webp",
+    "codeNamw": "hotel magigold",
+    "rating": 4.1,
+    "name": "chinese.North indian",
+    "price": "1500 for two",
+    "place": "rasulgarh,Bhubaneswar",
+    "km": 2.7,
+    "flat": "flat 10% off in prebooking"
+  },
+  {
+    "img": "homepageImages/resturant14.webp",
+    "codeNamw": "Buyret classy",
+    "rating": 4.2,
+    "name": "North indian",
+    "price": "1000 for two",
+    "place": "bapuji nagar,Bhubaneswar",
+    "km": 3.6,
+    "flat": "flat 10% off in prebooking"
+  },
+  {
+    "img": "homepageImages/resturant15.webp",
+    "codeNamw": "golden bird-hotel pushpa",
+    "rating": 4.5,
+    "name": "chinese.North indian",
+    "price": "900 for two",
+    "place": "saheednagar,Bhubaneswar",
+    "km": 3.9,
+    "flat": "flat 30% off in prebooking"
+  }
+]

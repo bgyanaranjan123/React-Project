@@ -1,0 +1,106 @@
+
+.footer {
+  height: 100vh;
+  width: 100%;
+  background-color: #f0f0f5;
+  display: grid;
+  grid-template-rows: 80% 2% 15%;
+  grid-template-columns: 90%;
+  justify-content: center;
+}
+.footer > #top {
+  display: grid;
+  grid-template-columns: 23% 12% 15% 15% 14%;
+  justify-content: center;
+  grid-template-rows: 80%;
+  gap: 15px;
+  align-content: center;
+}
+.footer > #top > section {
+  display: grid;
+  /* grid */
+  align-content: baseline;
+  gap: 15px;
+}
+.footer > #top > section > section > a,
+.footer > #top > section > a {
+  text-decoration: none;
+  color: rgba(33, 32, 32, 0.819);
+  text-transform: capitalize;
+  font-size: 90%;
+}
+.footer > #top > section > section > b,
+.footer > #top > section > b {
+  font-size: 110%;
+  text-transform: capitalize;
+}
+.footer > #top > section:nth-child(1) > img {
+  height: 90%;
+  width: 90%;
+}
+.footer > #top > section:nth-child(4) > button {
+  width: 10vw;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 2px black;
+}
+.footer > #top > section:nth-child(4) > button > i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.footer > #top > section:nth-child(3),
+.footer > #top > section:nth-child(5) {
+  display: grid;
+  grid-template-rows: repeat(2, 50%);
+}
+.footer > #top > section:nth-child(5) > section:nth-child(2) > span {
+  display: flex;
+  justify-content: space-between;
+}
+.footer > #top > section > section {
+  display: grid;
+  align-content: baseline;
+  gap: 15px;
+}
+.footer > #top > section:nth-child(1) {
+  display: grid;
+  justify-content: start;
+  align-content: baseline;
+  gap: 7px;
+}
+.footer > #top > section:nth-child(1) > p {
+  color: rgba(0, 0, 0, 0.818);
+  font-size: 110%;
+}
+.footer > #bottom {
+  display: grid;
+  align-items: center;
+}
+.footer > #bottom > span {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.footer > #bottom > span > h1 {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.818);
+}
+.footer > #bottom > span > button {
+  border: none;
+  cursor: pointer;
+}
+.footer > #bottom > span > button > img {
+  height: 10vh;
+  width: 15vw;
+}
+.footer > #bottom > span > button:hover {
+  transform: scale(1.08);
+}

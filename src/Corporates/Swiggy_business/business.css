@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.business {
+  height: 220vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 30vh 1fr;
+}
+.business > h1 {
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  align-self: center;
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.business > section {
+  display: grid;
+  grid-template-rows: repeat(2, 40%);
+  grid-template-columns: repeat(3, 30%);
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+.business > section > div {
+  background-color: #ededf0;
+  border-radius: 30px;
+  display: grid;
+  grid-template-rows: 15% 10% 2% 40% 18%;
+  grid-template-columns: 90%;
+  justify-content: center;
+  align-content: space-evenly;
+  /* justify-items: center; */
+}
+.business > section > div > h1 {
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  align-self: center;
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.821);
+}
+.business > section > div > p {
+  /* font-weight: 900; */
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.763);
+  line-height: 1.3em;
+  letter-spacing: .03em;
+}
+.business > section > div > img {
+  height: 130px;
+  width: 110px;
+  display: flex;
+  place-self: center;
+  padding-bottom: 80px;
+}
+.business > section > div > button {
+  display: flex;
+  place-self: center;
+  background-color: #ff5200;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.business > section > div:hover h1 {
+  color: #ff5200;
+}
+.business > section > div:hover {
+  box-shadow: 0 0 4px #ff5200 inset;
+}
+.business > section > div:hover img {
+  filter: drop-shadow(0 0 40px #ff5200);
+  transform: scale(1.4);
+  transition: all 0.7s ease-in-out;
+}
+
+.scan {
+  height: 60vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 90%;
+  grid-template-columns: 100%;
+  align-content: center;
+}
+.scan > img {
+  height: 100%;
+  width: 100%;
+}

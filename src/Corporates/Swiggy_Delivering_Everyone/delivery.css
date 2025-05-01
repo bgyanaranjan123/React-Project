@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.delivery_first_section {
+  height: 120vh;
+  width: 100%;
+  background-color: #ebebf3;
+  display: grid;
+  grid-template-rows: 25vh 8vh 85vh;
+  grid-template-columns: 95%;
+  justify-content: center;
+}
+.delivery_first_section > p {
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  align-self: center;
+  /* font-family: "Gilroy", Sans-serif; */
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.delivery_first_section > h1 {
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  align-self: end;
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.delivery_first_section > span {
+  display: grid;
+  grid-template-columns: repeat(5, 18%);
+  justify-content: space-between;
+  grid-template-rows: 70%;
+  align-content: center;
+}
+.delivery_first_section > span > div {
+  display: grid;
+  border-radius: 20px;
+  box-shadow: 0 0 2px black;
+  grid-template-rows: 80% 15%;
+  grid-template-columns: 93%;
+  justify-content: center;
+}
+.delivery_first_section > span > div > img {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  place-self: center;
+}
+.delivery_first_section > span > div > p {
+  background-color: rgba(219, 217, 217, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.763);
+  line-height: 1.3em;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.delivery_first_section > span > div:hover {
+  box-shadow: 0 0 5px #ff5200;
+}
+.delivery_first_section > span > div:hover img {
+  transform: scale(1.3);
+  transition: all 0.7s ease-in-out;
+}
+.flavour,
+.partner,
+.ride,
+.hdfc,
+.swiggyOne {
+  height: 80vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 70%;
+  grid-template-columns: 88%;
+  place-content: center;
+}
+.hdfc {
+  height: 70vh;
+  display: grid;
+  grid-template-rows: 70%;
+  grid-template-columns: 88%;
+}
+.flavour,
+.partner,
+.ride {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 90%;
+  grid-template-rows: 70%;
+}
+
+.hdfc > section,
+.swiggyOne > section {
+  border-radius: 20px;
+  background-color: #ffeee5;
+  display: grid;
+  grid-template-columns: 40% 50%;
+  grid-template-rows: 80%;
+  align-content: center;
+  justify-content: space-evenly;
+}
+.flavour > section,
+.partner > section,
+.ride > section {
+  /* background-color: #5d595f; */
+  display: grid;
+  grid-template-columns: 40% 50%;
+  grid-template-rows: 80%;
+  justify-content: space-between;
+}
+.partner > section {
+  grid-template-columns: 50% 48%;
+  grid-template-rows: 70%;
+  /* align-content: center; */
+}
+.hdfc > section {
+  background-color: #822aa5;
+  display: grid;
+  grid-template-columns: 50% 30%;
+  grid-template-rows: 70%;
+  justify-content: space-evenly;
+}
+.flavour > section > img,
+.partner > section > img,
+.ride > section > img {
+  height: 70vh;
+  width: 45vw;
+  display: flex;
+  place-self: center;
+}
+.flavour > section > img {
+  height: 57vh;
+}
+.partner > section > img {
+  height: 90vh;
+  width: 40vw;
+}
+.hdfc > section > img,
+.swiggyOne > section > img {
+  height: 76vh;
+  width: 38vw;
+  display: flex;
+  place-self: center;
+}
+.hdfc > section > img {
+  height: 65vh;
+  width: 32vw;
+}
+.flavour > section > span,
+.partner > section > span,
+.ride > section > span,
+.hdfc > section > span,
+.swiggyOne > section > span {
+  display: grid;
+  grid-template-rows: 19% 60% 20%;
+  /* gap: 10px; */
+}
+.partner > section > span {
+  align-content: center;
+}
+.hdfc > section > span {
+  grid-template-rows: 25% 50% 20%;
+}
+.flavour > section > span > button,
+.partner > section > span > button,
+.ride > section > span > button,
+.hdfc > section > span > button,
+.swiggyOne > section > span > button {
+  display: flex;
+  justify-self: baseline;
+  align-self: center;
+  padding: 13px 20px;
+  background-color: #ff5200;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.hdfc > section > span > button {
+  background-color: #ff5200;
+}
+.flavour > section > span > h2,
+.partner > section > span > h2,
+.ride > section > span > h2,
+.hdfc > section > span > h2,
+.swiggyOne > section > span > h2 {
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.871);
+}
+.hdfc > section > span > h2 {
+  color: white;
+}
+.flavour > section > span > p,
+.partner > section > span > p,
+.ride > section > span > p,
+.hdfc > section > span > p,
+.swiggyOne > section > span > p {
+  text-transform: capitalize;
+  font-size: 13.5px;
+  color: rgba(0, 0, 0, 0.763);
+  line-height: 1.3em;
+  letter-spacing: 0.03em;
+}
+.hdfc > section > span > p {
+  color: white;
+}

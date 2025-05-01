@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.partner_first_section {
+  height: 80vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  grid-template-rows: 80%;
+  justify-content: space-evenly;
+  align-content: center;
+  background: url(../../public/homepageImages/bg_partner.webp),
+    linear-gradient(to right top, black, gray);
+  background-size: 100% 100%;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+.partner_first_section > #left_part {
+  display: grid;
+  align-content: center;
+  gap: 5px;
+}
+.partner_first_section > #left_part > img {
+  height: 20vh;
+  width: 15vh;
+}
+.partner_first_section > #left_part > h1 {
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size: 28px;
+  color: white;
+}
+.partner_first_section > #left_part > p {
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: white;
+}
+.partner_first_section > #left_part > i {
+  font-size: 50px;
+  color: #fe5b0c;
+}
+
+.partner_first_section > #right_part {
+  display: grid;
+  grid-template-columns: 90%;
+  grid-template-rows: 95%;
+  place-content: center;
+}
+.partner_first_section > #right_part > form {
+  background-color: white;
+  display: grid;
+  border-radius: 20px;
+  grid-template-columns: 90%;
+  /* align-content: center; */
+  justify-content: center;
+  padding: 10px 0;
+}
+.partner_first_section > #right_part > form > h2 {
+  font-family: "Gilroy", Sans-serif;
+  position: relative;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.819);
+}
+.partner_first_section > #right_part > form > h2:after {
+  content: "";
+  height: 1vh;
+  width: 10vw;
+  box-shadow: 0 0 1px #fe5b0c;
+  background-color: #000000;
+  position: absolute;
+  top: 7.6vh;
+  border-radius: 0 50% 50% 0;
+  left: 0;
+}
+.partner_first_section > #right_part > form > span:nth-child(2) {
+  display: grid;
+  grid-template-columns: 70% 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+.partner_first_section > #right_part > form > span:nth-child(2) > i {
+  font-size: 24px;
+  cursor: pointer;
+  color: #fe5b0c;
+}
+.partner_first_section > #right_part > form > span:nth-child(2) > p {
+ 
+  font-weight: bolder;
+}
+.partner_first_section > #right_part > form > span:nth-child(3) {
+  display: grid;
+  align-items: center;
+}
+.partner_first_section > #right_part > form > span {
+  display: grid;
+}
+.partner_first_section > #right_part > form > span:nth-child(3) > input {
+  height: 8vh;
+  padding: 0 10px;
+  font-size: 105%;
+  outline: none;
+
+  text-transform: capitalize;
+}
+.partner_first_section > #right_part > form > span {
+  display: grid;
+  grid-template-rows: 80%;
+  align-content: center;
+}
+.partner_first_section > #right_part > form > span > button {
+  padding: 10px 30px;
+  background-color: #fe5b0c;
+  color: white;
+  text-transform: capitalize;
+  border: none;
+  cursor: pointer;
+  font-size: 106%;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+}
+.partner_first_section > #right_part > form > span > button:active {
+  border: 1px solid black;
+  color: #fe5b0c;
+  background-color: white;
+}
+.partner_first_section > #right_part > form > p {
+  color: rgba(0, 0, 0, 0.683);
+  font-weight: bolder;
+  font-size: 90%;
+  text-align: center;
+}
+.partner_first_section > #right_part > form > p > span {
+  color: black;
+  text-decoration: underline;
+}
+.second {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 50%;
+  justify-content: space-evenly;
+  grid-template-rows: 65%;
+  align-content: center;
+}
+.second > #left {
+  display: grid;
+  grid-template-rows: 10% 24% 1fr;
+  align-content: space-evenly;
+}
+.second>#right>p,
+.second > #left > p {
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 800;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.683);
+}
+.second>#right>b,
+.second > #left > h2 {
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.857);
+}
+
+.second > #left > div {
+  display: grid;
+  gap: 5px;
+
+  padding: 15px 10px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 0 2px #6541e4;
+  align-items: center;
+}
+.second > #left > div > hr {
+  height: 1px;
+  width: 80%;
+  display: flex;
+  background: none;
+  place-self: center;
+  border: 1px dashed red;
+}
+.second>#right>div>li,
+.second > #left > div > li > p {
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.88);
+}
+.second>#right>div>li::marker,
+.second > #left > div > li::marker {
+  color: #6541e4;
+  font-size: 24px;
+  display: flex;
+  place-self: center;
+}
+.second>#right>div>li::marker{
+  color: #fe5b0c;
+}
+.second > #left > div > li > b {
+  text-transform: capitalize;
+  font-size: 100%;
+  font-weight: 700;
+}
+.second>#right{
+  box-shadow: 0 0 5px #6541e4;
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows:10% 20% 5% 1fr;
+  padding:  20px 15px;
+}
+.second>#right>div{
+  display: grid;
+  
+}
+.second>#right>div>li>span{
+  color: #fe5b0c;
+  text-decoration:underline;
+  text-transform: capitalize;
+  cursor: pointer;
+}
