@@ -18,7 +18,7 @@ function Swigy_router() {
   const routingSwiggy = createBrowserRouter([
     {
       path: "/",
-      element: <Profilerouter/>
+      element: <Swiggy_Home_Section/>
       // errorElement:<Error/>
     },
     {
